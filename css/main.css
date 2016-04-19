@@ -83,6 +83,7 @@ nav {
 }
 
 #main_nav ul li {
+    font-size: 110%;
     padding: 10px;
     background-color: #9cca3d;
     text-align: center;
