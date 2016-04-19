@@ -24,6 +24,10 @@ html {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-size: 100%;
     background: url(../img/blue_background_stars.png);
@@ -48,7 +52,10 @@ header figure img {
 
 h1, h2, h3, h4 {
     font-family: 'cuprum', sans-serif;
+    text-align: center;
 }
+
+
 
 nav {
     margin: 10px;
@@ -70,9 +77,32 @@ nav {
 
 #main_nav ul li:hover {
     background-color: #f7932f;
-    text-shadow: 0 0 6px #bf7224;
+    text-shadow: 0 0 6px #d98129;
 }
 
 #main_nav ul li + li {
     margin-top: 10px;
+}
+
+#upcoming_events {
+    margin: 10px;
+    padding: 10px;
+    background: #ffffff;
+}
+
+#upcoming_events h3 {
+    text-align: left;
+    margin: 0;
+}
+
+#upcoming_events h2, #upcoming_events h3 + p {
+    margin-top: 0;
+}
+
+footer section {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 5px ;
+    text-align: center;
+    font-size: 80%;
 }
