@@ -25,6 +25,7 @@ html {
 }
 
 body {
+    font-size: 100%;
     background: url(../img/blue_background_stars.png);
 }
 
@@ -43,4 +44,8 @@ header figure img {
         width: 550px;
         margin: auto;
     }
+}
+
+h1, h2, h3, h4 {
+    font-family: 'cuprum', sans-serif;
 }
