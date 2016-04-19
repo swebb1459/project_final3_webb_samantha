@@ -49,3 +49,30 @@ header figure img {
 h1, h2, h3, h4 {
     font-family: 'cuprum', sans-serif;
 }
+
+nav {
+    margin: 10px;
+}
+
+#main_nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#main_nav ul li {
+    padding: 10px;
+    background-color: #9cca3d;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 0 6px #76992e;
+}
+
+#main_nav ul li:hover {
+    background-color: #f7932f;
+    text-shadow: 0 0 6px #bf7224;
+}
+
+#main_nav ul li + li {
+    margin-top: 10px;
+}
