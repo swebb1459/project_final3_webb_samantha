@@ -96,6 +96,13 @@ nav {
     text-shadow: 0 0 6px #d98129;
 }
 
+@media all and (min-width: 550px) {
+    #main_nav ul li {
+        display: inline-block;
+        width: calc(100%/4);
+    }
+}
+
 #main_nav ul li + li {
     margin-top: 10px;
 }
