@@ -107,11 +107,15 @@ nav {
 
 #upcoming_events header {
     margin-bottom: 10px;
-}
-
-#upcoming_events header, #upcoming_events section {
     background: #ffffff;
     padding: 10px;
+}
+
+#upcoming_events section {
+    background: #ffffff;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
 }
 
 #upcoming_events section + section {
@@ -120,6 +124,19 @@ nav {
 
 #upcoming_events h3 + p {
     margin-top: 0;
+}
+
+#upcoming_events aside {
+    width: 80%;
+    text-align: center;
+    font-size: 100%;
+    background: #ffffff;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#upcoming_events aside p {
+    margin: 0;
 }
 
 footer section {
