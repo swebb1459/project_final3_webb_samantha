@@ -26,7 +26,11 @@ html {
 
 a {
     text-decoration: none;
-    color: #9cca3d;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 body {
@@ -62,7 +66,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-    color: #ea252c;
+    color: #ffffff;
 }
 
 h3 {
@@ -107,7 +111,7 @@ nav {
 
 #upcoming_events header {
     margin-bottom: 10px;
-    background: #ffffff;
+    background: #ea252c;
     padding: 10px;
 }
 
@@ -127,12 +131,20 @@ nav {
 }
 
 #upcoming_events aside {
+    color: #ffffff;
     width: 80%;
     text-align: center;
     font-size: 100%;
-    background: #ffffff;
+    background: #9cca3d;
     margin: 10px auto;
     padding: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 6px #76992e;
+}
+
+#upcoming_events aside:hover {
+    background-color: #f7932f;
+    text-shadow: 0 0 6px #d98129;
 }
 
 #upcoming_events aside p {
