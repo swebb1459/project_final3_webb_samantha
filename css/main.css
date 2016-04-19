@@ -26,7 +26,7 @@ html {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #9cca3d;
 }
 
 a:hover {
@@ -118,8 +118,6 @@ nav {
 #upcoming_events section {
     background: #ffffff;
     padding: 10px;
-    width: 80%;
-    margin: auto;
 }
 
 #upcoming_events section + section {
@@ -131,20 +129,9 @@ nav {
 }
 
 #upcoming_events aside {
-    color: #ffffff;
-    width: 80%;
     text-align: center;
     font-size: 100%;
-    background: #9cca3d;
-    margin: 10px auto;
-    padding: 10px;
     font-weight: bold;
-    text-shadow: 0 0 6px #76992e;
-}
-
-#upcoming_events aside:hover {
-    background-color: #f7932f;
-    text-shadow: 0 0 6px #d98129;
 }
 
 #upcoming_events aside p {
