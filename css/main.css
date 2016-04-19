@@ -58,6 +58,7 @@ header figure img {
 h1, h2, h3, h4 {
     font-family: 'cuprum', sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 h2 {
@@ -97,21 +98,28 @@ nav {
 
 #upcoming_events {
     margin: 10px;
-    padding: 10px;
-    background: #ffffff;
 }
 
 #upcoming_events h3 {
     text-align: left;
-    margin: 0;
+    margin-bottom: 0;
 }
 
-#upcoming_events h2, #upcoming_events h3 + p {
+#upcoming_events header {
+    margin-bottom: 10px;
+}
+
+#upcoming_events header, #upcoming_events section {
+    background: #ffffff;
+    padding: 10px;
+}
+
+#upcoming_events section + section {
+    margin-top: 10px;
+}
+
+#upcoming_events h3 + p {
     margin-top: 0;
-}
-
-#upcoming_events a {
-    text-align: center;
 }
 
 footer section {
