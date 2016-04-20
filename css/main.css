@@ -121,6 +121,10 @@ nav {
     margin-top: 10px;
 }
 
+#main_nav a {
+    color: #ffffff;
+}
+
 #main_image {
     margin: 10px;
 }
