@@ -200,11 +200,7 @@ nav {
     }
 
     #meal_day {
-        margin: 0 5px;
-    }
-
-    #gift_cards {
-        margin-left: 5px;
+        margin: 0 0 0 5px;
     }
 
     #homepage_widgets article + article {
