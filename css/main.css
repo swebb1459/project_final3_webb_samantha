@@ -170,6 +170,10 @@ nav {
     display: none;
 }
 
+#menu img {
+    width: 100%;
+}
+
 /*Code for footer*/
 
 footer {
