@@ -172,6 +172,26 @@ nav {
 
 #menu img {
     width: 100%;
+    border: 5px solid #ffffff;
+}
+
+#menu section {
+    margin: 5px;
+}
+
+@media all and (min-width: 400px) {
+    #menu section {
+        display: inline-block;
+        margin: 10px;
+        width: calc(50% - 20px);
+    }
+}
+
+@media all and (min-width: 600px) {
+    #menu section {
+        margin: 10px;
+        width: calc(33% - 20px);
+    }
 }
 
 /*Code for footer*/
