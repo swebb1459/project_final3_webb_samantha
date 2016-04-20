@@ -185,7 +185,6 @@ nav {
 }
 
 #menu_buttons {
-    margin-top: 10px;
     width: 100%;
 }
 
@@ -212,6 +211,7 @@ nav {
 }
 
 #menu {
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -233,6 +233,9 @@ nav {
         width: calc(50% - 10px);
         margin: 5px;
     }
+    #menu_buttons header {
+        margin-top: 5px;
+    }
 
     #menu section {
         width: calc(50% - 20px);
@@ -244,6 +247,10 @@ nav {
         width: 30%;
     }
 
+    #menu_buttons header {
+        margin-top: 5px;
+    }
+
     #menu_buttons button {
         width: 100%;
         margin: 0;
@@ -251,6 +258,7 @@ nav {
 
     #menu {
         width: calc(70% - 20px);
+        margin-top: 0;
     }
 }
 
@@ -259,6 +267,11 @@ nav {
         width: calc(50% - 10px);
         margin: 5px;
     }
+
+    #menu_buttons header {
+        margin-top: 10px;
+    }
+
 
     #menu section {
         display: inline-block;
