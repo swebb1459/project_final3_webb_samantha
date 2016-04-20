@@ -92,7 +92,8 @@ header figure img {
 }
 
 nav {
-    margin: 10px;
+    width: 100%;
+    background: #9cca3d;
 }
 
 #main_nav ul li {
