@@ -200,7 +200,7 @@ nav {
     padding: 10px;
 }
 
-#menu_buttons button:hover {
+#menu_buttons button:hover, #menu_buttons button.active {
     background: #f7932f;
 }
 
