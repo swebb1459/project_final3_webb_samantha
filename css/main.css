@@ -99,7 +99,6 @@ nav {
 #main_nav ul li {
     font-size: 110%;
     padding: 10px;
-    background-color: #9cca3d;
     text-align: center;
     color: #ffffff;
     font-weight: bold;
@@ -135,8 +134,16 @@ nav {
     width: 100%;
 }
 
-#upcoming_events {
+#homepage_widgets {
     margin: 10px;
+}
+
+#homepage_widgets article + article {
+    margin-top: 10px;
+}
+
+#upcoming_events, #meal_day, #gift_cards {
+    width: 100%;
 }
 
 #upcoming_events h3 {
@@ -144,19 +151,15 @@ nav {
     margin-bottom: 0;
 }
 
-#upcoming_events header {
+#upcoming_events header, #meal_day header, #gift_cards header {
     margin-bottom: 10px;
     background: #ea252c;
     padding: 10px;
 }
 
-#upcoming_events section {
+#upcoming_events section, #meal_day section, #gift_cards section {
     background: #ffffff;
     padding: 10px;
-}
-
-#upcoming_events section + section {
-    margin-top: 10px;
 }
 
 #upcoming_events h3 + p {
@@ -173,15 +176,44 @@ nav {
     margin: 0;
 }
 
-#social_media {
-    margin: 10px;
-    padding: 10px;
-    background: #ffffff;
+@media all and (min-width: 550px) {
+    #meal_day, #gift_cards {
+        width: calc(50% - 5px);
+    }
+
+    #meal_day {
+        margin-right: 5px;
+    }
+
+    #gift_cards {
+        margin-left: 5px;
+    }
 }
 
+@media all and (min-width: 800px) {
+    #upcoming_events, #meal_day, #gift_cards {
+        width: calc(33% - 5px);
+    }
+
+    #upcoming_events {
+        margin-right: 5px;
+    }
+
+    #meal_day {
+        margin: 0 5px;
+    }
+
+    #gift_cards {
+        margin-left: 5px;
+    }
+
+    #homepage_widgets article + article {
+        margin-top: 0;
+    }
+}
 /*Code for menu page*/
 
-.container article {
+#menu_page article {
     margin: 20px 10px;
 }
 
