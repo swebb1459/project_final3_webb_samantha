@@ -200,11 +200,10 @@ nav {
     padding: 10px;
 }
 
-#menu_buttons header {
-    margin-bottom: 10px;
+#menu_header {
+    margin: 10px;
     background: #ea252c;
     padding: 10px;
-    width: 100%;
 }
 
 #menu_buttons button + button {
@@ -245,10 +244,7 @@ nav {
 
 @media all and (min-width: 600px) {
     #menu_buttons {
-        width: 30%;
-    }
-
-    #menu_buttons header {
+        width: 25%;
         margin-top: 5px;
     }
 
@@ -258,21 +254,19 @@ nav {
     }
 
     #menu {
-        width: calc(70% - 20px);
+        width: calc(75% - 20px);
         margin-top: 0;
     }
 }
 
 @media all and (min-width: 800px) {
-    #menu_buttons button {
-        width: calc(50% - 10px);
-        margin: 5px;
+    #menu_buttons {
+        margin-top: 10px;
     }
 
     #menu_buttons header {
         margin-top: 10px;
     }
-
 
     #menu section {
         display: inline-block;
