@@ -24,6 +24,14 @@ html {
     margin: auto;
 }
 
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
 a {
     text-decoration: none;
     color: #9cca3d;
@@ -40,6 +48,25 @@ body {
 
 body p {
     font-size: 90%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'cuprum', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+h3 {
+    color: #f7932f;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -59,27 +86,8 @@ header figure img {
     }
 }
 
-h1, h2, h3, h4 {
-    font-family: 'cuprum', sans-serif;
-    text-align: center;
-    margin: 0;
-}
-
-h2 {
-    color: #ffffff;
-}
-
-h3 {
-    color: #f7932f;
-}
-
 nav {
     margin: 10px;
-}
-
-#main_nav ul {
-    padding: 0;
-    margin: 0;
 }
 
 #main_nav ul li {
@@ -106,6 +114,15 @@ nav {
 
 #main_nav ul li + li {
     margin-top: 10px;
+}
+
+#main_image {
+    margin: 10px;
+}
+
+img {
+    border: .5em #ffffff solid;
+    width: 100%;
 }
 
 #upcoming_events {
