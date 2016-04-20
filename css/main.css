@@ -162,7 +162,9 @@ nav {
 
 /*Code for menu page*/
 
-#menu
+#menu {
+    margin: 10px;
+}
 
 /*Code for footer*/
 
