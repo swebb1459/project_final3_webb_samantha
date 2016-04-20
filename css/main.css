@@ -166,6 +166,10 @@ nav {
     margin: 10px;
 }
 
+#menu .mix {
+    display: none;
+}
+
 /*Code for footer*/
 
 footer {
