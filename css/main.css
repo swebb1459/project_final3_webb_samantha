@@ -76,7 +76,7 @@ ul {
 }
 
 header figure {
-    padding: 40px 0 10px;
+    padding: 50px 0 10px;
 }
 
 header figure img {
@@ -205,7 +205,7 @@ nav {
 }
 
 #menu_header {
-    margin: 10px;
+    margin: 20px 10px 0px;
     background: #ea252c;
     padding: 10px;
 }
