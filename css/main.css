@@ -177,10 +177,15 @@ nav {
     padding: 10px;
 }
 
+#menu_buttons header {
+    margin-bottom: 10px;
+    background: #ea252c;
+    padding: 10px;
+}
+
 #menu_buttons button + button {
     margin-top: 10px;
 }
-
 
 #menu {
     margin: 10px;
