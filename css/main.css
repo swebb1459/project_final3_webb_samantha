@@ -176,8 +176,13 @@ nav {
 
 /*Code for menu page*/
 
+.container article {
+    margin: 20px 10px;
+}
+
 #menu_buttons {
-    margin: 10px 15px;
+    margin-top: 10px;
+    width: 100%;
 }
 
 #menu_buttons button {
@@ -203,7 +208,6 @@ nav {
 }
 
 #menu {
-    margin: 10px;
     text-align: center;
 }
 
@@ -220,16 +224,40 @@ nav {
     margin: 5px;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 400px) {
+    #menu_buttons button {
+        width: calc(50% - 10px);
+        margin: 5px;
+    }
+
     #menu section {
-        display: inline-block;
-        margin: 10px;
         width: calc(50% - 20px);
     }
 }
 
+@media all and (min-width: 600px) {
+    #menu_buttons {
+        width: 30%;
+    }
+
+    #menu_buttons button {
+        width: 100%;
+        margin: 0;
+    }
+
+    #menu {
+        width: calc(70% - 20px);
+    }
+}
+
 @media all and (min-width: 800px) {
+    #menu_buttons button {
+        width: calc(50% - 10px);
+        margin: 5px;
+    }
+
     #menu section {
+        display: inline-block;
         margin: 10px;
         width: calc(33% - 20px);
     }
