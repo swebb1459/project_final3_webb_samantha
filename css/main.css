@@ -24,6 +24,14 @@ html {
     margin: auto;
 }
 
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
 a {
     text-decoration: none;
     color: #9cca3d;
