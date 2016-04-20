@@ -24,20 +24,6 @@ html {
     margin: auto;
 }
 
-.float_left {
-    float: left;
-}
-
-.float_right {
-    float: right;
-}
-
-.clearfix::after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
 a {
     text-decoration: none;
     color: #9cca3d;
@@ -125,26 +111,13 @@ nav {
     margin: 10px;
 }
 
-@media all and (min-width: 550px) {
-    #main_image {
-        width: 70%;
-    }
-}
-
 #main_image img {
     border: .5em #ffffff solid;
     width: 100%;
 }
 
 #upcoming_events {
-    width: 100%;
     margin: 10px;
-}
-
-@media all and (min-width: 550px) {
-    #upcoming_events {
-        width: 25%;
-    }
 }
 
 #upcoming_events h3 {
