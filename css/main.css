@@ -162,6 +162,26 @@ nav {
 
 /*Code for menu page*/
 
+#menu_buttons {
+    margin: 10px 15px;
+}
+
+#menu_buttons button {
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 0 6px #ad9b12;
+    background: #fadf1a;
+    border: 0;
+    padding: 10px;
+}
+
+#menu_buttons button + button {
+    margin-top: 10px;
+}
+
+
 #menu {
     margin: 10px;
     text-align: center;
