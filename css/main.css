@@ -200,6 +200,10 @@ nav {
     padding: 10px;
 }
 
+#menu_buttons button:hover {
+    background: #f7932f;
+}
+
 #menu_header {
     margin: 10px;
     background: #ea252c;
