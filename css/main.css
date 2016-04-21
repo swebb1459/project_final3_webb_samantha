@@ -234,6 +234,7 @@ nav {
 
     #contact {
         margin-left: 5px;
+        text-align: center;
     }
 
     #company_info article + article {
@@ -345,6 +346,10 @@ nav {
 
 #social_media {
     text-align: center;
+}
+
+#social_media img {
+    margin: 5px;
 }
 
 /*Code for footer*/
