@@ -28,6 +28,10 @@ I group these two together as they helped me make sense of my JavaScript problem
 
 This can be seen on the homepage if you hover over the Gift Cards section.
 
+* [Positioning](http://stackoverflow.com/questions/32700758/position-responsive-element-to-the-bottom-of-the-screen-using-css-html-and-boo)
+
+I needed to look up how to have my alien container stay fixed at the bottom of the screen. I found my answer here.
+
 ##Comments
 
 This was quite fun yet challenging. I ended up redoing my project at least three times. There were definitely a ton of jQuery options I wanted to try but didn't have enough time.I needed to focus on the ones I was trying to implement first. The JavaScript one gave me quite some trouble when it came to removing the element. It was an array and I wasn't specify which one I wanted to remove. There was only one but I guess it needs to be specified. If anything, being specific was probably my biggest challenge. I used my class notes a lot as they were extremely helpful.
