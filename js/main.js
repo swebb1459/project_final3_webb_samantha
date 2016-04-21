@@ -5,6 +5,8 @@ $(document).ready(function() {
         $('#menu').mixItUp();
     });
 
+    $('.bxslider').bxSlider();
+
     //jQuery code that changes the color of the navigation when
     //when you mouseenter and mouseleave the main image on the homepage.
     $('#main_image').mouseenter(function() {
