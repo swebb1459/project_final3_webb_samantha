@@ -5,8 +5,9 @@ $(document).ready(function() {
         $('#menu').mixItUp();
     });
 
-    $('.bxslider').bxSlider();
 
+    $('.bxslider').bxSlider();
+    
     //jQuery code that changes the color of the navigation when
     //when you mouseenter and mouseleave the main image on the homepage.
     $('#main_image').mouseenter(function() {
@@ -19,6 +20,8 @@ $(document).ready(function() {
         $('nav').css('background', '#9cca3d');
     });
 });
+
+
 
 //JavaScript code that adds an aside to the body with an image
 //when a user mouseenter the #gift_cards element.
