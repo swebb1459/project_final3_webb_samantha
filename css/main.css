@@ -209,6 +209,8 @@ nav {
 }
 
 #company_info {
+    font-size: 110%;
+    text-align: center;
     margin: 10px;
 }
 
@@ -234,7 +236,6 @@ nav {
 
     #contact {
         margin-left: 5px;
-        text-align: center;
     }
 
     #company_info article + article {
