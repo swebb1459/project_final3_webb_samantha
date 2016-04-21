@@ -143,11 +143,11 @@ nav {
 }
 
 #upcoming_events, #meal_day, #gift_cards, #location_hours, #contact {
+    text-align: center;
     width: 100%;
 }
 
 #upcoming_events h3 {
-    text-align: left;
     margin-bottom: 0;
 }
 
@@ -280,7 +280,7 @@ nav {
 
 #menu {
     margin-top: 10px;
-    text-align: center;
+
 }
 
 #menu .mix {

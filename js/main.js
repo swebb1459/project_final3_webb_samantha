@@ -18,6 +18,9 @@ $(document).ready(function() {
     });
 });
 
+//JavaScript code that adds an aside to the body with an image
+//when a user mouseenter the #gift_cards element.
+//When the mouse leaves the element, the aside is removed.
 var element = document.getElementById( 'gift_cards' );
 
 element.addEventListener('mouseenter', function() {
