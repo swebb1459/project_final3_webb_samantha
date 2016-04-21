@@ -22,10 +22,16 @@ var element = document.getElementById( 'gift_cards' );
 
 element.addEventListener('mouseenter', function() {
 
-    var aside = document.createElement( 'div' );
+    var aside = document.createElement( 'aside' );
 
     aside.innerHTML = '<img src="img/alien.png" alt="alien" title="alien" />';
+    aside.className = 'alien';
 
     document.body.appendChild(aside);
+});
 
+element.addEventListener('mouseleave', function() {
+
+    var elem = document.getElementsByClassName('alien');
+    elem[0].parentNode.removeChild(elem[0]);
 });

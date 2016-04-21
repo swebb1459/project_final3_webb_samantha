@@ -353,6 +353,20 @@ nav {
     margin: 5px;
 }
 
+/*code for pop up alien*/
+
+.alien {
+    width: 100%
+    margin: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+.alien img {
+    width: 100%;
+    max-width: 372px;
+}
+
 /*Code for footer*/
 
 footer {
